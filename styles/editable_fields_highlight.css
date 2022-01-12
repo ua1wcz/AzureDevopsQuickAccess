@@ -1,0 +1,9 @@
+/* Editable fields */
+div.main-container div.main div.content-section div.wrap input {
+	background-color: #f2f8ed !important;
+}
+
+/* Non-Editable fields */
+div.main-container div.main div.content-section div.wrap input.disabled {
+	background-color: #f2f2f2 !important;
+}

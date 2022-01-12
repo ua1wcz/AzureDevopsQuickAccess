@@ -1,0 +1,37 @@
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+    a {
+        font-size:14;
+        color:rgb(100,100,100);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+        color: white;
+    }
+    a {
+        font-size:14;
+        color:rgb(202, 202, 202);
+    }
+}
+
+body { 
+    min-width: 775px; 
+    font-size:100%;
+}
+        
+table { 
+    width: 775px; 
+    font-size:100%;
+}
+        
+td { 
+    padding-left: 2px; 
+    padding-right: 2px; 
+}
+

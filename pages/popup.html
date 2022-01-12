@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Azure DevOps Quick Access</title>
+	<link rel="stylesheet" type="text/css" href="../styles/popup.css"/>
+	<script src="/scripts/document.js"></script>
+	<script src="/scripts/storage.js"></script>
+	<script src="/scripts/time.js"></script>
+	<script src="/scripts/workitems.js"></script>
+	<script src="popup.js"></script>
+</head>
+<body>
+
+	<p id="current_workitem_section" hidden>
+		<a href="#" id="copy_current_workitem_title_link">Copy workitem <strong>title</strong> to clipboard</a><br/>
+		<span id="copy_content_result_span"></span>
+	</p>
+
+	<p id="workitem_input_section">
+		<span>Open workitem by id:</span>
+		<input type="text" id="workitem_id_input" size="35"/> <br/>
+	</p>
+
+	<p id="workitem_link_section" hidden>
+		<a href="#" id="workitem_link">Go</a><br/>
+		<span id="press_enter_hint">Or press Enter</span><br/>
+	</p>
+
+	<p id="recent_items_section">
+	</p>
+
+	<p id="auxiliary_section">
+		<textarea id="paste_buffer" hidden></textarea>
+	</p>
+</body>
+</html>
