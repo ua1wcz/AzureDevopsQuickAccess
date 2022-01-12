@@ -8,3 +8,10 @@ To Install:
 5. Open plugin settings and set correct links to Azure server and project
 6. Add plugin to be visible on a Chrome panel.
 7. To be Continued
+
+Roadmap.
+1. Hotkey to open item by selecting number from any site.
+2. Add item types to the recent items list.
+3. Add profiles.
+4. Add local storage\synced storage switcher to match corporate politics (if it's needed).
+5. Add style to dropdown menu.
