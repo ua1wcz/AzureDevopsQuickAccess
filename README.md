@@ -1,4 +1,4 @@
-# AzureDevopsQuickAccess
+# AzureDevopsQuickAccess Chrome extension
 
 To Install:
 1. Unpack plugin on the disk. 
